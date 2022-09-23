@@ -1,0 +1,258 @@
+body{
+    
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(247, 6, 6);
+    border-width: 5px;
+    width: 6%;
+    margin: 100px auto;
+    /* margin-bottom: 100px;
+    margin-left: 47%;
+    margin-right: 50%; */
+    
+}
+p{
+    line-height: 2;
+    /* width: 50%; */
+}
+h1{
+
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+     /* line-height: 4pt;  */
+    line-height:2;
+    /* line-height: 1px; */
+    /* margin: 0 auto 0 auto; */
+    /* width: 10%; */
+    
+}  
+
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 20px auto;
+    text-align: center;
+
+    
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+a{
+    color: #3708f4;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+/* navigation */
+
+.logo-image{
+   border-radius: 100px;
+   padding:100px;
+   width:15%;
+   height: 3rem;
+}
+.navbar{
+    background-color: #11999E;
+    padding-bottom: 2.5rem;
+    
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    
+    font-family: 'Merriweather', serif;
+}
+
+/* top-container */
+#first-section .container-fluid{
+   padding: 0;
+}
+.top_container{
+    background-color: #EAF6F6;
+   /* background-color: cornsilk; */
+   position: relative;
+   padding-top: 100px;
+   text-align: center;
+   
+}
+
+.middle-container{
+    /* line-height: 4; */
+
+    margin: 100px 0;
+    text-align: center;
+}
+
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px  20px;
+    text-align: center;
+    
+   
+}
+.pro{
+    text-decoration: underline;
+}
+
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:40px;
+
+}
+.bottom-cloud{
+    position:absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+
+.profile-image{
+    border-radius: 200px;
+    border:20px;
+    border-color: #f64c08;
+    margin-bottom: 30px;
+}
+.myself-description{
+    color: #40514E;
+    /* line-height: 2; */
+    /* margin-top: 20px; */
+    margin:auto;
+    /* margin-bottom: 50px; */
+    width: 50%;
+}
+.skill-row{
+    /* line-height: 2; */
+    
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skills-1-img{
+    
+    
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.skills-2-img{
+    float: right;
+    margin-left: 30px;
+    width: 30%;
+}
+
+/* achievements section */
+#Achievements{
+    background-color: #9c9c9c;
+    margin: 70px 0; 
+    text-align: center;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.achievement-image{
+    width: 70%;
+    margin: 20px;
+}
+
+
+
+.contact-message{
+    width: 30%;
+    margin:40px auto 60px;
+    text-align: center;
+}
+
+/* contact button css property copied from css3buttongenerator.com website  */
+
+.footer-link{
+    margin: 10px 20px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.btn{
+    /* width: 10%; */
+    margin: 10px 0;
+    text-align: center;
+}
+
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+
+  }
+
+  @media (max-width:1028px){
+
+    .mountain-image{
+        width:80%;
+    }
+    .bottom-cloud{
+        width: 10%;
+    }
+
+    .navbar-brand{
+        padding: 2px 2px;
+        margin-left: 30px;
+        width: 10%;
+    }
+    
+}
+
+
+
+  
