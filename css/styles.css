@@ -250,6 +250,21 @@ i{
         margin-left: 30px;
         width: 10%;
     }
+
+    @media (max-width:900px){
+
+        .mountain-image{
+            width:70%;
+        }
+        .bottom-cloud{
+            width: 5%;
+        }
+    
+        .navbar-brand{
+            padding: 1px 1px;
+            margin-left: 20px;
+            width: 5%;
+        }
     
 }
 
